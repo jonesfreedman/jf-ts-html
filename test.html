@@ -1,0 +1,298 @@
+html>
+
+
+
+<head>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://use.fontawesome.com/45f397353c.js"></script>
+
+
+
+    <style>
+
+        .btn-primary:active {
+
+            /* background-color: #3e8e41; */
+
+            box-shadow: 0 5px #666;
+
+            transform: translateY(4px);
+
+        }
+
+    </style>
+
+
+
+    <script>
+
+        function changeIcon() {
+
+            if (document.getElementById("icon").className == "fa fa-chevron-circle-down")
+
+                document.getElementById("icon").className = "fa fa-chevron-circle-up";
+
+            else
+
+                document.getElementById("icon").className = "fa fa-chevron-circle-down";
+
+        }
+
+    </script>
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="container">
+
+        <B>Techstack</B>
+
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+
+            placeholder="Search">
+
+
+
+
+        <table class="table">
+
+            <thead style="background-color: #495057; color: white;">
+
+                <th>
+
+                    Area
+
+                </th>
+
+                <th>
+
+                    Tools
+
+                </th>
+
+                <th>
+
+                    Guidelines
+
+                </th>
+
+            </thead>
+
+        </table>
+
+        <button class="btn btn-danger" data-toggle="collapse" data-target="#demo" onclick="changeIcon()">Tools <i
+
+                id="icon" class="fa fa-chevron-circle-down" aria-hidden="true"></i></button>
+
+        <div id="demo" class="collapse">
+
+            <table class="table">
+
+                <!--
+
+                style="border-radius: 1%; background-color: #adb5bd05; border-color: white; box-shadow: 2px 3px 4px #dc354547;">
+
+                -->
+
+                <tbody>
+
+                    <tr>
+
+                        <td style="width: 24%;">
+
+                            IDE
+
+                        </td>
+
+                        <td style="width: 29%;">
+
+                            <ul>
+
+                                <li>
+
+                                    Visual Studio 2019
+
+                                </li>
+
+                                <li>
+
+                                    Visual Studio 2017
+
+                                </li>
+
+                                <li>
+
+                                    Visual Studio Code
+
+                                </li>
+
+                            </ul>
+
+                        </td>
+
+                        <td style="width: 100%;">
+
+                            <ul>
+
+                                <li>
+
+                                    Visual Studio 2019 Guidelines
+
+                                </li>
+
+                                <li>
+
+                                    Visual Studio 2017 Guidelines
+
+                                </li>
+
+                                <li>
+
+                                    Visual Studio Code Guidelines
+
+                                </li>
+
+                            </ul>
+
+                        </td>
+
+                    </tr>
+
+
+
+                    <tr>
+
+                        <td style="width: 24%;">
+
+                            Language and Frameworks
+
+                        </td>
+
+                        <td style="width: 29%;">
+
+                            <ul>
+
+                                <li>
+
+                                    C#
+
+                                </li>
+
+                                <li>
+
+                                    Typescript
+
+                                </li>
+
+                            </ul>
+
+                        </td>
+
+                        <td style="width: 100%;">
+
+                            <ul>
+
+                                <li>
+
+                                    Visual Studio 2019 Guidelines
+
+                                </li>
+
+                            </ul>
+
+                        </td>
+
+                    </tr>
+
+
+
+                    <tr>
+
+                        <td style="width: 24%;">
+
+                            Database
+
+                        </td>
+
+                        <td style="width: 29%;">
+
+                            <ul>
+
+                                <li>
+
+                                    C#
+
+                                </li>
+
+                                <li>
+
+                                    Typescript
+
+                                </li>
+
+                            </ul>
+
+                        </td>
+
+                        <td style="width: 100%;">
+
+                            <ul>
+
+                                <li>
+
+                                    Visual Studio 2019 Guidelines
+
+                                </li>
+
+                            </ul>
+
+                        </td>
+
+                    </tr>
+
+
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>
